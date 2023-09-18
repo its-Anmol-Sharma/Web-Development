@@ -1,0 +1,212 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    font-family: 'Poppins';
+}
+a{
+    text-decoration: none;
+}
+
+/* nav section starts */
+.nav-list{
+    
+    padding-top: 40px;
+}
+.static-section{
+    background-color: white;
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+    height: 100px;
+}
+nav ul li{
+    display: inline;
+    padding-right: 15px;
+    padding-left: 15px;
+    color: grey;
+}
+nav ul li:hover{
+    cursor: pointer;
+    color: black;
+}
+.header-img{
+    padding: right 140px;
+    padding-top: 22px;
+}
+.header-section{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 100px;
+}
+.sign_btn{
+    background-color: white;
+    width: 60px;
+    height: 30px;
+}
+.sub_btn{
+    background-color: #19ddc4;
+    border-color: #19ddc4;
+    color: white;
+    height: 30px;
+    border-radius: 10%;
+}
+.btn{
+    padding-top: 36px;
+    padding-left: 100px;
+}
+.new{
+    color: grey;
+    padding-top: 44px;
+    padding-left: 16px;
+}
+.new:hover{
+    display: flex;
+    padding-top: 15px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 100%;
+    width: 30px;
+    height: 20px;
+    background-color: grey;
+    color: black;
+}
+
+/* nav section ends */
+
+
+/* Hero section starts */
+
+.hero-section{
+    padding-top: 100px;
+    height: 400px;
+    width: 100%;
+    background-image: url("https://polar.gbjsolution.com/content/images/2017/05/cover-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center center;
+}
+.hero-content{
+    text-align: center;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Hero section ends */
+
+
+/* cards section starts */
+
+.cards-main{
+    display: flex;
+    justify-content: space-between;
+    padding: 74px;
+}
+.cards{
+    width: 400px;
+    height: 500px;
+    padding-right: 20px;
+    box-shadow: 0.1px 0.1px 0.5px black;
+    text-align: center;
+}
+.main-comment{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    margin: auto;
+}
+.second-comment{
+    padding-top: 10px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+.img-hero{
+    height: 280px;
+}
+.pages{
+    text-align: center;
+    justify-content: center;
+}
+.btn-sec{
+    margin-left: 30px;
+    background-color: white;
+    height: 25px;
+    width: 110px;
+}
+
+/* cards section ends */
+
+
+/* Footer section starts */
+
+.another-card{
+    /* display: flex;
+    justify-content: space-between; */
+    width: 16px;
+    padding: 25px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 61px;
+    margin-left: 276px;
+    margin-top: 54px;
+}
+.card-related{
+    width: 347px;
+}
+.img-card{
+    display: flex;
+    padding-bottom: 5px;
+}
+.para-foot{
+    margin: -1px -2px;
+    padding: 6px;
+    padding-top: 0px;
+    color: grey;
+    font-size: 15px;
+}
+.btn-cloud{
+    color: grey;
+    background-color: white;
+    border: 1px solid grey;
+    cursor: pointer;
+}
+.subscribe_btn{
+    background-color: #19ddc4;
+    border-color: #19ddc4;
+    color: white;
+    height: 40px;
+    width: 80px;
+    margin-left: 2px;
+    border-radius: 10%;
+}
+.footer-list{
+    display: inline;
+    color: grey;
+    padding-right: 10px;
+}
+.disclamier{
+    color: grey;
+}
+.icons-list li{
+    display: inline;
+    color: grey;
+}
+.copy-sect{
+    display: flex;
+    justify-content: space-between;
+}
+.icons-list{
+    padding-right: 139px;
+}
+.content-foot{
+    padding-left: 200px;
+    color: grey;
+}
+/* Footer section ends */
