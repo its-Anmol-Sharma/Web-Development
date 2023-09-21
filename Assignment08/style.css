@@ -8,8 +8,6 @@ body {
 a{
     text-decoration: none;
 }
-
-/* nav section starts */
 .nav-list{
     
     padding-top: 40px;
@@ -74,9 +72,6 @@ nav ul li:hover{
     background-color: grey;
     color: black;
 }
-
-/* nav section ends */
-
 
 /* Hero section starts */
 
