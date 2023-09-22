@@ -1,0 +1,91 @@
+body {
+    font-family: "Poppins", sans-serif;
+  }
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+  }
+  .hero-section{
+    padding-top: 100px;
+    height: 400px;
+    width: 100%;
+    background-image: url("https://5.imimg.com/data5/QA/BT/MY-7626238/industrial-construction.png");
+    margin-top: 5%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center center;
+}
+.hero-content{
+    text-align: center;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    background-color: yellow;
+}
+h1{
+    text-align: center;
+}
+P{
+    text-align: center;
+}
+.Card1{
+    display: flex;
+}
+.work-item {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+  
+.work-item img {
+    max-width: 100%;
+    height: auto;
+}
+  
+.work-item h3 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+  
+.work-item p {
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.options
+{
+    margin-left: 29%;
+}
+
+.item
+{
+    background-color: white;
+    margin: 0px;
+    padding: 6px 15px;
+    border: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: all 0.5s;
+}
+
+.item:hover
+{
+    background-color: rgb(236, 236, 11);
+    color: white;
+}
+
+.image
+{
+    width: 25%;
+    padding: 0px;
+    cursor: pointer;
+}
+  
